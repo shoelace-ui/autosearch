@@ -1,0 +1,15 @@
+{
+  "name": "shoelace-ui-autosearch",
+  "version": "0.0.1",
+  "repo": "shoelace-ui/autosearch",
+  "main": "index.js",
+  "scripts": [ "index.js" ],
+  "styles": [ "index.css" ],
+  "dependencies": {
+    "yields/select": "*",
+    "yields/merge": "*"
+  },
+  "development": {
+    "jocafa/blarney": "*"
+  }
+}

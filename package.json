@@ -1,0 +1,11 @@
+{
+  "name": "shoelace-ui-autosearch",
+  "version": "0.0.1",
+  "description": "A subclassed component of yields/select",
+  "repository": "https://github.com/shoelace-ui/autosearch.git",
+  "devDependencies": {
+    "stylus": "*",
+    "shoelace-ui-media-queries": "shoelace-ui/media-queries"
+  },
+  "license": "MIT"
+}
