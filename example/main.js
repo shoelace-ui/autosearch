@@ -8,13 +8,16 @@ function main() {
   var
     as = new Autosearch(),
     numNames = 100,
+    container = document.body.querySelector('.container'),
     i;
+
+  as.label('Type things');
 
   for (i = 0; i < numNames; i++) {
     as.add(bl.name());
   }
 
-  document.body.appendChild(as.el);
+  container.appendChild(as.el);
 }
 
 window.addEventListener('DOMContentLoaded', main);
